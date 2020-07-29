@@ -1,8 +1,8 @@
 We can use the top 3 array's positions to keep the stack's length, so at the beginning they will all be equal to 0
 The next 3 slots of this array are going to keep different prime numbers (ex: 3, 5 and 7)
 If you want to push to any of the three stacks, you need to tell in which one you want to push, then according to its correspondent prime number,
-the item you want to push will be stored at that index. If your stack is empty, just use your prime number. Else, you multiply your prime number with the length, and it will be the index to store the item you want to push.
-Then, in the position that stores it's length, you have to increment the value.
+the item you want to push will be stored at that index. If your stack is empty, just use your prime number to get the index. Else, you multiply your prime number by the length, and it will be the index to store the item you want to push.
+Then, in the position that stores it's length, you will have to increment the value.
 To pop in a stack, it's similar to the push logic, except that you decrement the stack's length.
 
 Yes, collisions are going to happen, because at some point the multipliers and lengths are going to be multiple between each other.
