@@ -1,0 +1,6 @@
+We need to have an auxiliary stack to store the min values, let's call it minStack.
+At the beginning, the first item to be pushed into the stack will also be pushed into the minStack.
+Everytime we push an item, we execute peek() at the minStack, checking if the item's value is equal or lesser than the top element of the minStack.
+If true, push into the minStack.
+Everytime we call pop() in the stack, we call peek() in the minStack and check by reference if they are the same.
+If true, we also call pop() in the minStack.
