@@ -88,8 +88,6 @@ enqueue(cat1)
 enqueue(cat3)
 
 print(dequeueAny().data.name)
-printLinkedList(dogList)
 print(dequeueDog().data.name)
-printLinkedList(dogList)
 print(dequeueCat().data.name)
 print(dequeueAny().data.name)
