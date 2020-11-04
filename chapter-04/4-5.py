@@ -41,3 +41,5 @@ nodeF.setLeft(nodeB)
 nodeF.setRight(nodeD)
 nodeD.setRight(nodeE)
 nodeC.setLeft(nodeG)
+
+print(validateBST(nodeA))
